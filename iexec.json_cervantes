@@ -1,0 +1,27 @@
+{
+  "description": "Ask Cervantes what he's thinking",
+  "license": "MIT",
+  "author": "?",
+  "social": {
+    "website": "?",
+    "github": "?"
+  },
+  "logo": "logo.png",
+  "app": {
+    "name": "cervantes",
+    "price": 1,
+    "params": {
+      "type": "DOCKER",
+      "envvars": "XWDOCKERIMAGE=javiermares/miguel-2"
+    }
+  },
+  "order": {
+    "buy": {
+      "app": "0x80cb8d465f7cc5eae6fdb567ff9a34058209a904",
+      "dataset": "0x0000000000000000000000000000000000000000",
+      "params": {
+        "cmdline": "python3 /examples/nlp/dime_algo.py"
+      }
+    }
+  }
+}
